@@ -136,7 +136,6 @@ img{
 
 .food {
     margin-top: 5%;
-    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -165,6 +164,7 @@ margin-left: 10%;
     /* background: rgba(161, 161, 161, 0.5); */
 }
 
+     /* popup part   */
 .modal {
     position: fixed;
     top: 52.3%;

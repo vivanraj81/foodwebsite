@@ -89,6 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
         }
     });
+
+    // popup part
     searchResultsContainer.addEventListener('click', function (event) {
         const clickedElement = event.target;
 
