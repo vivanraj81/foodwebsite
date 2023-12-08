@@ -25,19 +25,23 @@ body::before {
 } 
 .header{
     text-align: center;
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 30px;
+}
+.close{
+   margin-left: 80%;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .text{
     width: 85%;
-    height: 80vh;
+    height: 70vh;
     background: rgba(161, 161, 161, 0.5);
     margin-left: 7%;
     border-radius: 20px;
 }
-text h2{
-    font-size:30px;
-}
+ 
 .info{
     width:95%;
     height: 70%;
@@ -46,8 +50,19 @@ text h2{
     padding-top: 2%;
 }
 .info li{
-    font-size:40px ;
+    font-size:30px ;
 }
+
+@media only screen and (max-width: 600px) {
+    .header{
+        font-size: 30px;
+    }
+    .info li{
+        font-size:25px ;
+    }
+}
+
+
 
 
 /* contact form css */
@@ -68,6 +83,9 @@ text h2{
     margin-left: 19%;
     padding-top: 19%;
 }
+input{
+    cursor: pointer;
+}
 .form input{
     width: 60%;
     height: 50px;
@@ -85,7 +103,24 @@ input::placeholder{
         text-align: center;
     }
     .formbg{
-        width: 30vw;
-        height: 60vh;
+        width: 70vw;
+        height: 50vh;
+        margin-left: 15vw;
     }
+    .form h2{
+        margin-left: -90%;
+        margin-top: -10%;
+        margin-bottom: 5%;
+    }
+    .form input{
+        width: 80%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: -37.0%;
+    }
+
 }

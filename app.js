@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .then(response => response.json())
                 .then(data => {
                     const meal = data.meals[0];
-                    const ingredients = meal.strIngredient1 + ', ' + meal.strIngredient2 + ', ' + meal.strIngredient3;
+                    const ingredients = meal.strIngredient1 + ', ' + meal.strIngredient2 + ', ' + meal.strIngredient3+ ', ' + meal.strIngredient4+ ', ' + meal.strIngredient5;
                     showModal(imageUrl, ingredients);
                 })
                 .catch(error => {
